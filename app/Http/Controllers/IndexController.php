@@ -33,7 +33,12 @@ class IndexController extends Controller
     {  
         // В переменную $articles сохраним выборку 
         // необходимой информации из таблицы 'articles': 
-        $articles = Article::select(['id', 'title', 'fragment'])->get();
+        // $articles = Article::select(['id', 'title', 'fragment'])->get();
+        
+        // Будем извлекать данные в другом порядке. В итоге поменяем
+        // последовательность постов на главной странице, теперь
+        // самый новый пост будет наверху:
+        $articles = Article::select(['id', 'title', 'fragment'])->latest()->get();
         
         // dump($articles); // распечатаем содержимое переменной $articles
 

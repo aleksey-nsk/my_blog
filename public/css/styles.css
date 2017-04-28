@@ -1,0 +1,172 @@
+body { 	  
+	background-color: Gainsboro;
+}
+
+.main_container {
+	/* border: 1px solid Red; */ 
+	padding: 10px;
+	width: 960px;
+	background-color: White;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+
+	/* Выравниваем по центру: */ 
+	/* margin: auto; */ 	
+	margin-left: auto;
+	margin-right: auto; 	
+}
+
+.header {
+	border: 1px solid YellowGreen; 
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 16px;
+	background-color: YellowGreen;
+	color: Black;
+}
+
+.header h1, .header h3 {
+	/* border: 1px solid Yellow; */ 
+}
+
+.menu {
+	/* border: 1px solid Green; */ 
+	margin-bottom: 10px;
+	height: 30px;
+	width: 568px;
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+	
+	/* Выравниваем по центру: */ 
+	/* margin: auto; */ 	
+	margin-left: auto;
+	margin-right: auto; 	
+}
+
+.menu .menu_button {
+	/* border: 1px solid Red; */ 
+	width: 120px;
+	height: 30px;
+	float: left; /* теперь кнопки встали в горизонтальный ряд */ 
+	margin-right: 10px;
+	margin-left: 10px; 
+	text-align: center; 
+	background-color: OliveDrab;	
+}
+
+.menu .menu_button a { 	
+	text-decoration: none;
+	color: White; 
+}
+
+/* Меняем цвет кнопок и надписей при наведении курсора мышки на них: */
+.menu .menu_button:hover { background-color: Gainsboro; }
+.menu .menu_button a:hover { color: Black; }  
+
+.content { 
+	/* border: 1px solid Red; */ 	
+}
+
+.content .article {
+	border: 2px solid OliveDrab;
+	margin-bottom: 10px; 
+	padding: 5px;
+}
+
+.content .article h2 {
+	/* border: 1px solid Blue; */ 
+	text-align: center; 
+	font-family: "Times New Roman";
+	font-size: 24px;
+}
+
+.content .article p {
+	/* border: 1px solid Red; */ 
+	font-family: "Times New Roman";
+	font-size: 16px;
+	text-align: justify;
+}
+
+.content .article .read {
+	/* border: 1px solid Blue; */ 	
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: OliveDrab; 
+	width: 120px;
+	height: 30px;
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+}
+
+.content .article .read a {
+	text-decoration: none;
+	color: White;
+}
+
+/* Меняем цвет кнопок и надписей при наведении курсора мышки на них: */
+.content .article .read:hover { background-color: Gainsboro; }
+.content .article .read a:hover { color: Black; }  
+
+.content .article .delete {
+	border: 1px solid DarkRed; 
+	background-color: DarkRed;
+	color: White; 
+	width: 120px;
+	height: 30px;
+	font-family: "Comic Sans MS";
+	font-size: 15px; 	
+}
+
+/* Меняем цвет кнопок и надписей при наведении курсора мышки на них: */
+.content .article .delete:hover { 
+	background-color: Yellow; 
+	color: Black;
+}
+
+.content .alert-error {
+	/* border: 1px solid Blue; */ 
+	background-color: LightCoral;
+	color: DarkRed;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.content .article .form-element {
+	/* border: 1px solid Blue; */ 
+	margin-bottom: 5px;
+}
+
+.content .article .send {
+	border: 1px solid OliveDrab; 
+	background-color: OliveDrab;
+	margin-bottom: 5px;
+	text-align: center; 	 
+	width: 120px;
+	height: 30px;
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+	color: White;
+}
+
+/* Меняем цвет кнопок и надписей при наведении курсора мышки на них: */
+.content .article .send:hover { 
+	background-color: Gainsboro; 
+	color: Black;
+}
+
+.footer {
+	/* border: 1px solid Blue; */ 
+	font-family: "Comic Sans MS";
+	background-color: YellowGreen;
+	height: 40px;
+	padding-top: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.footer a {
+	/* border: 1px solid blue; */
+	text-decoration: underline;
+	color: Maroon; 
+} 

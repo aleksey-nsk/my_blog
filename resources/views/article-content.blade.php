@@ -1,4 +1,5 @@
 @extends('layouts.site')
+<!-- подключили наш глобальный лэйаут site (глобальный шаблон site) -->
 
 @section('content') 
   <div class="content"> 
